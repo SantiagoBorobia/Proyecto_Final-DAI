@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santiagoborobia.quinielamundial.Main2Activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_mundial_azul"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Menu Principal"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btMiLiga"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="paginaMiLiga"
+            android:text="Mi liga"
+            android:layout_marginTop="50pt"/>
+
+        <Button
+            android:id="@+id/btCrearLiga"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="paginaCrearLiga"
+            android:text="Crear una liga"
+            android:layout_marginTop="10pt"/>
+
+        <Button
+            android:id="@+id/btUnirse"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Unirse a una Liga"
+            android:onClick="paginaUnirseLiga"
+            android:layout_marginTop="10pt"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

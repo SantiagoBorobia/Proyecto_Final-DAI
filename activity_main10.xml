@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santiagoborobia.quinielamundial.Main10Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_mundial_azul">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrador"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Partidos:"
+                android:textSize="10pt"
+                android:textColor="#FFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg1"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alemania"
+                    android:id="@+id/rb1L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb1E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mexico"
+                    android:id="@+id/rb1V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg2"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suecia     "
+                    android:id="@+id/rb2L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb2E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mexico"
+                    android:id="@+id/rb2V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg3"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Corea      "
+                    android:id="@+id/rb3L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb3E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mexico"
+                    android:id="@+id/rb3V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg4"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rusia       "
+                    android:id="@+id/rb4L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb4E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uruguay"
+                    android:id="@+id/rb4V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg5"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Portugal"
+                    android:id="@+id/rb5L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb5E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="España"
+                    android:id="@+id/rb5V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg6"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Francia  "
+                    android:id="@+id/rb6L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb6E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dinamarca"
+                    android:id="@+id/rb6V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg7"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Argentina"
+                    android:id="@+id/rb7L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb7E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Croacia"
+                    android:id="@+id/rb7V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg8"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brasil"
+                    android:id="@+id/rb8L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb8E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suiza"
+                    android:id="@+id/rb8V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg9"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belgica"
+                    android:id="@+id/rb9L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb9E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inglaterra"
+                    android:id="@+id/rb9V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg10"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="25pt">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Polonia"
+                    android:id="@+id/rb10L"
+                    android:textColor="#FFF"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate"
+                    android:id="@+id/rb10E"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colombia"
+                    android:id="@+id/rb10V"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:layout_marginTop="30dp"
+                android:onClick="registrarAdmin"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular puntos"
+                android:onClick="calcularPuntos"
+                android:layout_marginTop="30dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:onClick="regresar"
+                android:layout_marginTop="30dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

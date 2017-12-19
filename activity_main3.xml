@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santiagoborobia.quinielamundial.Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_mundial_azul"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Liga"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10pt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvBienvenida"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona una de las siguintes opciones para interactuar en la quiniela:"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="30pt"/>
+
+        <Button
+            android:id="@+id/btResultados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consultar resultados"
+            android:layout_marginTop="15pt"
+            android:onClick="paginaResultados"/>
+
+        <Button
+            android:id="@+id/btPuntos"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:text="Puntos"
+            android:onClick="paginaPuntos"/>
+
+        <Button
+            android:id="@+id/btPredicciones"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Mis Predicciones"
+            android:onClick="paginaPredicciones"/>
+        <Button
+            android:id="@+id/btCerrarSesion"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión"
+            android:onClick="cerrarSesion"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

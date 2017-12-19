@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santiagoborobia.quinielamundial.Main5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_mundial_azul">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear Usuario"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="20pt">
+
+            <TextView
+                android:id="@+id/tvUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario: "
+                android:textColor="#FFFF"/>
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#FFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30px">
+
+            <TextView
+                android:id="@+id/tvMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: "
+                android:textColor="#FFFF"/>
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#FFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30px">
+
+            <TextView
+                android:id="@+id/tvContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contraseña: "
+                android:textColor="#FFFF"/>
+
+            <EditText
+                android:id="@+id/etClave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#FFFF"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btCrear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            android:onClick="altaUsuario"/>
+
+        <Button
+            android:id="@+id/btRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:onClick="regresar"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_light"
+            android:text="Si olvidaste tu contraseña, escribe tu correo y da click en el siguiente botón:"
+            android:layout_marginTop="10pt"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recordar contraseña"
+            android:onClick="consulta2"
+            android:layout_marginLeft="10pt"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

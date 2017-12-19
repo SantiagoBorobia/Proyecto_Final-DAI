@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santiagoborobia.quinielamundial.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_mundial_azul">
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Quiniela mundialista"
+            android:textColor="#FFF"
+            android:textColorHighlight="#FFFF"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90pt"
+            android:layout_height="90pt"
+            app:srcCompat="@drawable/logo_mundial"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10pt"
+            android:layout_marginLeft="20pt"
+            android:layout_marginRight="20pt">
+
+            <TextView
+                android:id="@+id/tvUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: "
+                android:textColor="#FFF"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#FFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20pt"
+            android:layout_marginRight="20pt">
+
+            <TextView
+                android:id="@+id/tvClave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clave: "
+                android:textColor="#FFFF"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <EditText
+                android:id="@+id/etClaveI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#FFFF"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesion"
+            android:onClick="inicioSesion"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btNuevo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crear usuario"
+                android:onClick="paginaUsuario"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5pt"/>
+            <Button
+                android:id="@+id/btMapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapa"
+                android:onClick="paginaMapa"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5pt"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+
